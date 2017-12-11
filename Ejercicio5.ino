@@ -19,5 +19,8 @@
         lcd.setCursor(i,1);
         lcd.print(inChar);
         i=i+1;
+        if (i==16){
+          i=0;
+        }
       } 
     }  
